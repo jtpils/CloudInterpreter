@@ -1,20 +1,16 @@
-Guida all'utilizzo
+# CloudInterpreter
+A team at University of Applied Sciences and Arts of Southern Switzerland is developing a system for the classification of high density point clouds. To verify the goodness of the classification algorithm a tool to visualize the point clouds is needed. Moreover, the tool must provide the possibility to fluidly interact with the cloud (move, zoom,...). Due to the large size of the point clouds and their high density, the implementation of such a tool is not a trivial task. This project aims to build a prototype that allows a fluidly interaction with high-density point clouds and a method for accuracy evaluation of the previus developed classification algorithm.
 
-Requisiti:
+For the creation of this prototype the <a href="https://github.com/intel-isl/Open3D"> **Open3d** </a> library was used through the python API. So most of the code is developed in **python** and a little bit in **C++**. The project is mainly composed by two parts:
 
--Ubuntu 16.04 o superiore
--GCC 4.9 o superiore
--Python 3.6
+  * Converter
+  * Visualizer
 
-Procedura:
+## Converter
+//TODO
 
--Installare le dipendenze eseguendo il file dependencies/install-deps-ubuntu.sh
--Creare un virtualenv attraverso python 3.6
--Attivare il venv precedentemente creato "source nome-venv/bin/activate"
--Installare nel seguente venv i pacchetti numpy e json: "pip install nome-pacchetto"
--Installare il file .whl corrispondente alla versione modificata di open3D necessaria "pip install open3d-0.7.0.0-cp36-cp36m-linux_x86_64.whl"
+## Visualizer
+//TODO
 
-Avvio:
-
-Basterà eseguire il file Main.py dopo aver inserito l'indirizzo di una cartella contenente una nuvola di punti convertita precedentemente. Il codice nel file Main.py mostra anche come eseguire la conversione di un file (codice commentato).
-
+### Installation
+For requirements and installation guide please see <a href="https://github.com/nicholasala/CloudInterpreter/blob/master/README.txt"> README.txt </a>
